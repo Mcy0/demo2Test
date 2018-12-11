@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--<mapper namespace="cn.happy.dao.DeptDao">-->
+    <!--&lt;!&ndash;可以重用的SQL块，也可以被其他语句引用&ndash;&gt;-->
+    <!--<sql id="columns">-->
+        <!--id,name-->
+    <!--</sql>-->
+    <!--&lt;!&ndash;用来描述数据库结果集和对象的对应关系&ndash;&gt;-->
+
+    <!--&lt;!&ndash; 1.查找所有部门&ndash;&gt;-->
+    <!--<select id="getAllDept" resultType="Department">-->
+        <!--select <include refid="columns"></include> from department-->
+    <!--</select>-->
+<!--</mapper>-->
