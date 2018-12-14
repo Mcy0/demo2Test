@@ -27,6 +27,16 @@ public class SqlSessionFactoryUtils {
                 e.printStackTrace();
                 return null;
             }
+            finally {
+                if (inputStream != null)
+                {
+                    try {
+                        inputStream.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
             return sqlSessionFactory;
         }
     }

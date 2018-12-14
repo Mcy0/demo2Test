@@ -1,7 +1,15 @@
 package com.mcy;
 
+import org.apache.ibatis.type.BaseTypeHandler;
+import org.apache.ibatis.type.EnumOrdinalTypeHandler;
+import org.apache.ibatis.type.EnumTypeHandler;
+import org.apache.ibatis.type.StringTypeHandler;
+
 public class Test {
     public static void main(String[] args) {
-        System.out.println(1L);
+        BaseTypeHandler baseTypeHandler;
+        StringTypeHandler stringTypeHandler;
+        EnumTypeHandler enumTypeHandler;
+        EnumOrdinalTypeHandler enumOrdinalTypeHandler;
     }
 }
